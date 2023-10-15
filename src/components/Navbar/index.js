@@ -1,6 +1,6 @@
 import React from 'react'
 import { Nav, NavLink, NavbarContainer, Span, NavLogo, NavItems, GitHubButton, ButtonContainer, MobileIcon, MobileMenu, MobileNavLogo, MobileLink } from './NavbarStyledComponent'
-import { DiCssdeck , DiAtom , DiReact } from 'react-icons/di';
+import { DiReact } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { Bio } from '../../data/constants';
 import { Close, CloseRounded } from '@mui/icons-material';
@@ -28,6 +28,7 @@ const Navbar = () => {
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
+          <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">Github Profile</GitHubButton>
@@ -49,7 +50,10 @@ const Navbar = () => {
             }}>Projects</MobileLink>
             <MobileLink href='#education' onClick={() => {
               setIsOpen(!isOpen)
-            }}>Education</MobileLink>
+            }}>Educations</MobileLink>
+            <MobileLink href='#contact' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Contact</MobileLink>
             <GitHubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GitHubButton>
           </MobileMenu>
         }

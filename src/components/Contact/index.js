@@ -107,10 +107,10 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: hsla(220, 100%, 50%, 1);
+  background: linear-gradient(225deg, hsla(220, 100%, 50%, 1) 0%, hsla(240, 100%, 20%, 1) 100%);
+  background: -moz-linear-gradient(225deg, hsla(220, 100%, 50%, 1) 0%, hsla(240, 100%, 20%, 1) 100%);
+  background: -webkit-linear-gradient(225deg, hsla(220, 100%, 50%, 1) 0%, hsla(240, 100%, 20%, 1) 100%);
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -142,10 +142,10 @@ const Contact = () => {
 
 
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+       
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
