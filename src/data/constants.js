@@ -1,3 +1,10 @@
+import Excellimg from '../images/cyrine_logo_FINAL.png'
+import Position from '../images/position.png'
+import Chat from '../images/Chat.png'
+import FSEGN from '../images/fsegn.png'
+import ITBS from '../images/ITBS.png'
+
+
 export const Bio = {
   name: "Wassim Bacha",
   roles: [
@@ -182,7 +189,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://drive.google.com/uc?export=view&id=1q-4-4AM4WzrY_yUZvuFbysn45oaouqRr",
+    img: Excellimg,
     role: "Fullstack Engineering Intern",
     company: "EXCELL LLC.",
     date: "Feb 2020 - July 2020",
@@ -220,21 +227,21 @@ export const experiences = [
 export const education = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.71 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: FSEGN,
+    school: "Faculty of Economic and Management Sciences of Nabeul",
+    date: "Oct 2018 - Sep 2021",
+    //grade: "8.71 CGPA",
+    desc: "I completed my Bachelor of Technology in Computer Science applied to managment at the Faculty of Economic and Management Sciences of Nabeul.",
+    degree: "Bachelor degree in Computer Science applied to managment",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: ITBS,
+    school: "IT Business School",
+    date: "Sep 2021 - Present",
+    //grade: "88.2%",
+    desc: "I am currently pursuing my Software Engineering degree at IT Business School.",
+    degree: "Software Engineering degree",
   },
   {
     id: 2,
@@ -313,71 +320,69 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Brain Tumor Detection",
-    date: "Jan 2023 - Mar 2023",
+    title: "Comment Toxicity Detection",
+    date: "Mar 2023 - Apr 2023",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "A web app that detects the toxicity of a comment. it uses a pre-trained model to detect the toxicity of a comment.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "https://drive.google.com/uc?export=view&id=1Id6PP1Bqr9D20deQui3W71_2xEemx4bi",
+    tags: ["Python", "Keras", "TensorFlow", "Pandas", "OpenCV", "Flask","jupyter notebook","docker","google cloud platform"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-    member: [
-      {
-        name: "Rishav Chanda",
-        img: "https://avatars.githubusercontent.com/u/64485885?v=4",
-        linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-        github: "https://github.com/rishavchanda/",
-      },
-      {
-        name: "Upasana Chaudhuri",
-        img: "https://avatars.githubusercontent.com/u/100614635?v=4",
-        linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
-        github: "https://github.com/upasana0710",
-      },
-    ],
+   // github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    //webapp: "https://brain-tumor.netlify.app/",
+   // member: [
+    //  {
+    //    name: "Rishav Chanda",
+    //    img: "https://avatars.githubusercontent.com/u/64485885?v=4",
+    //    linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+    //    github: "https://github.com/rishavchanda/",
+     // },
+     // {
+    //    name: "Upasana Chaudhuri",
+     //   img: "https://avatars.githubusercontent.com/u/100614635?v=4",
+     //   linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+      //  github: "https://github.com/upasana0710",
+    //  },
+   // ],
   },
   {
     id: 3,
-    title: "Buckoid",
-    date: "Dec 2021 - Apr 2022",
+    title: "Contact Keeper",
+    date: "Apr 2023 - May 2023",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "A web app that keeps track of all the contacts. It has a login page where users can log in. It has a list where users can see all the contacts and can create a new contact.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+      "https://drive.google.com/uc?export=view&id=1ZLw3NWqxgm4E_z5tZeRZI3v1LU3bAyAA",
+    tags: ["Java", "SQLite", "Android Studio"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+   // github: "https://github.com/rishavchanda/Buckoid-Android-App",
+   // webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
   },
   {
     id: 10,
-    title: "Job Finding App",
-    date: "Jun 2023 - Jul 2023",
+    title: "Find Friends App",
+    date: "Apr 2022 - Jun 2022",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+      "An android app that helps you find your friends.you can send an sms to your friends to know their location.",
+    image: Position,
+    tags: ["Java", "SQLite", "Android Studio"],
     category: "android app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+   // github: "https://github.com/rishavchanda/Job-finder-App",
+   // webapp: "https://github.com/rishavchanda/Job-finder-App",
   },
   {
     id: 4,
-    title: "Whatsapp Clone",
-    date: "Jul 2021",
+    title: "Chat system",
+    date: "Jul 2023 - Present",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
-    image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      "A chat app made with React JS, and Firebase. It has a login page where users can log in with their account",
+    image: Chat,
+    tags: ["React Js", "Firebase", "Firestore"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
-    webapp: "https://whatsapp-clone-rishav.web.app",
+    //github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
+   // webapp: "https://whatsapp-clone-rishav.web.app",
   },
-  {
+ /* {
     id: 5,
     title: "Todo Web App",
     date: "Jun 2021",
@@ -429,6 +434,7 @@ export const projects = [
     github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
     webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
+  */
 ];
 
 export const TimeLineData = [
