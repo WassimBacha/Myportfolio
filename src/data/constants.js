@@ -3,10 +3,14 @@ import Position from '../images/position.png'
 import Chat from '../images/Chat.png'
 import FSEGN from '../images/fsegn.png'
 import ITBS from '../images/ITBS.png'
+import face from '../images/facereco.png'
+import jewelry from '../images/jewlery.png'
+import pharmaciejava from '../images/pharmaciejava.png'
+import pharmaciecsharp from '../images/projetcsharp.png'
 
 
 export const Bio = {
-  name: "Wassim Bacha",
+  name: "Mohamed Wassim Bacha",
   roles: [
     "Full Stack Developer",
     "Android Developer",
@@ -225,17 +229,8 @@ export const experiences = [
 ];
 
 export const education = [
-  {
+   {
     id: 0,
-    img: FSEGN,
-    school: "Faculty of Economic and Management Sciences of Nabeul",
-    date: "Oct 2018 - Sep 2021",
-    //grade: "8.71 CGPA",
-    desc: "I completed my Bachelor of Technology in Computer Science applied to managment at the Faculty of Economic and Management Sciences of Nabeul.",
-    degree: "Bachelor degree in Computer Science applied to managment",
-  },
-  {
-    id: 1,
     img: ITBS,
     school: "IT Business School",
     date: "Sep 2021 - Present",
@@ -243,6 +238,16 @@ export const education = [
     desc: "I am currently pursuing my Software Engineering degree at IT Business School.",
     degree: "Software Engineering degree",
   },
+  {
+    id: 1,
+    img: FSEGN,
+    school: "Faculty of Economic and Management Sciences of Nabeul",
+    date: "Oct 2018 - Sep 2021",
+    //grade: "8.71 CGPA",
+    desc: "I completed my Bachelor of Technology in Computer Science applied to managment at the Faculty of Economic and Management Sciences of Nabeul.",
+    degree: "Bachelor degree in Computer Science applied to managment",
+  },
+  /*
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
@@ -252,6 +257,7 @@ export const education = [
     desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
     degree: "ICSC(X), Science with Computer",
   },
+  */
 ];
 
 export const projects = [
@@ -260,8 +266,7 @@ export const projects = [
     title: "PharmacMaladieChronic",
     description:
       "A desktop application that manages chronic patients and their prescriptions.",
-    image:
-      "https://drive.google.com/uc?export=view&id=1cd5_51NilQEkfWvd0aAul2NfBmTaQ6zt",
+    image: pharmaciejava,
     tags: [
       "Javafx",
       "Mysql",
@@ -269,7 +274,7 @@ export const projects = [
       "git",
       
     ],
-    category: "web app",
+    category: "Desktop app",
     //github: "https://github.com/rishavchanda/Trackify",
     //webapp: "https://trackify.duckdns.org",
   },
@@ -279,10 +284,9 @@ export const projects = [
     //date: "Apr 2023 - May 2023",
     description:
       "A desktop application that manages chronic patients and their prescriptions.",
-    image:
-      "https://drive.google.com/uc?export=view&id=16Us14KA7TSVGtJ6p_VKYmj9qYuS_H21G",
+    image: pharmaciecsharp ,
     tags: ["C#", "Visual Studio", "XAMPP", "PHPmyadmin", "Mysql"],
-    category: "web app",
+    category: "Desktop app",
     //github: "https://github.com/rishavchanda/Podstream",
     //webapp: "https://podstream.netlify.app/",
     //member: [
@@ -306,15 +310,14 @@ export const projects = [
     date: "february 2022",
     description:
       "A desktop application that manages a jewelry store.",
-    image:
-      "https://drive.google.com/uc?export=view&id=1oyRklTO2_gVDUOBb5hImX3AecHNLmZcV",
+    image: jewelry ,
     tags: [
       "C#",
       "MySql",
       "Microsoft Visual Studio",
       "Microsoft SQL Server Management Studio",
     ],
-    category: "web app",
+    category: "Desktop app",
    // github: "https://github.com/rishavchanda/Project-Management-App",
    // webapp: "https://vexa-app.netlify.app/",
   },
@@ -382,7 +385,8 @@ export const projects = [
     //github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
    // webapp: "https://whatsapp-clone-rishav.web.app",
   },
- /* {
+  /*
+  {
     id: 5,
     title: "Todo Web App",
     date: "Jun 2021",
@@ -395,6 +399,7 @@ export const projects = [
     github: "https://github.com/rishavchanda/Todo-Web-App",
     webapp: "https://rishav-react-todo.netlify.app/",
   },
+  
   {
     id: 6,
     title: "Breaking Bad",
@@ -421,20 +426,22 @@ export const projects = [
     github: "https://github.com/rishavchanda/Quiz-Earn",
     webapp: "https://github.com/rishavchanda/Quiz-Earn",
   },
+  */
+  
   {
     id: 8,
-    title: "Face Recognition",
-    date: "Jan 2021",
+    title: "Attendance-System-FaceRecognition",
+    date: "Jan 2022",
     description:
-      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-    image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces.",
+    image: face,
+    tags: ["Python", "Keras", "VGG16", "Pickle", "Tkinter"],
     category: "machine learning",
-    github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-    webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    //github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
+    //webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
   },
-  */
+  
+  
 ];
 
 export const TimeLineData = [
