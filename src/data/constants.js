@@ -7,7 +7,7 @@ import face from '../images/facereco.png'
 import jewelry from '../images/jewlery.png'
 import pharmaciejava from '../images/pharmaciejava.png'
 import pharmaciecsharp from '../images/projetcsharp.png'
-import logomomentum from '../images/logomomentum.png'
+import logomomentum from '../images/logomomentum.jpg'
 
 
 export const Bio = {
