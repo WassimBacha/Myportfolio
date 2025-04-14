@@ -7,6 +7,7 @@ import face from '../images/facereco.png'
 import jewelry from '../images/jewlery.png'
 import pharmaciejava from '../images/pharmaciejava.png'
 import pharmaciecsharp from '../images/projetcsharp.png'
+import logomomentum from '../images/logomomentum.png'
 
 
 export const Bio = {
@@ -218,6 +219,21 @@ export const experiences = [
       "Javafx",
       "Mysql",
       "git",
+    ],
+   // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
+  {
+    id: 2,
+    img: logomomentum,
+    role: "FullStack Developer Intern",
+    company: "Momentum Technologies",
+    date: "February 2024 - August 2024",
+    desc: "FullStack application for outdoor activities.",
+    skills: [
+      ".net 8.0",
+      "Blazor WebAssembly",
+      "Sqlite",
+      "SignalR",
     ],
    // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
