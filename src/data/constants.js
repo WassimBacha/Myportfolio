@@ -22,7 +22,7 @@ export const Bio = {
     "Aspiring software engineer 🚀 | Passionate about coding, tech innovation, and problem-solving 💻 | Committed to continuous learning and personal growth 📚 | Eager to shape the future of technology and make a positive impact on the world 🌍.",
   github: "https://github.com/WassimBacha",
   resume:
-    "https://drive.google.com/file/d/1tj8_VdbPmnd3RBqDOSqMxQXGVyItWLGw/view?usp=sharing",
+    "https://drive.google.com/file/d/11-iOe5nKOEf6fCD7jj0uFeLhiuxhnF_i/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/mohamed-wassim-bacha-b2b833254/",
   facebook: "https://www.facebook.com/profile.php?id=100010821767154",
 };
